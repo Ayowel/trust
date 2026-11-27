@@ -47,6 +47,7 @@ function Button(config){
 	self.setText = function(text_id){
 		var words = Words.get(text_id);
 		if(config.uppercase) words = words.toUpperCase();
+		button.setAttribute("data-text-id", text_id);
 		self.setText2(words);
 	};
 	self.setText2 = function(words){

@@ -21,6 +21,16 @@ body{
 	font-size: 18px;
 
 }
+
+@media (max-width: 976px), (max-height: 616px){
+	body{
+		min-width: 976px;
+		min-height: 616px;
+		overflow: auto;
+		position: relative;
+	}
+}
+
 #preloader{
 	position: absolute;
     margin: auto;
@@ -57,6 +67,9 @@ s{
     color: #fff;
     text-align: center;
     width: 960px;
+    max-width: calc(100% - 272px);
+    max-height: 38px;
+    overflow: auto;
     letter-spacing: -0.5px;
 }
 #translations a{
@@ -268,6 +281,19 @@ s{
 .button[size=long] #hitbox{
 	width:345px;
 }
+.button:is([data-text-id=characters_button], [data-text-id=first_match],
+	[data-text-id=noise_characters_btn], [data-text-id=noise_evo_4_2_btn],
+	[data-text-id=conclusion_btn]) #text{
+	font-size: 22px;
+}
+.button:is([data-text-id=label_reset], [data-text-id=sandbox_reset_payoffs]) #text{
+	font-size: 19px;
+}
+.button[data-text-id=sandbox_end_btn] #text{
+	font-size: 22px;
+	line-height: 22px;
+	top: 5px;
+}
 .button:active{
     transform: scale(0.95, 0.95);
 }
@@ -372,7 +398,7 @@ s{
 	background-size: auto 100%;
 }
 .sandbox_pop_label{
-	font-size: 18px;
+	font-size: 17px;
     width: 150px;
     top: 8px;
     left: 50px;

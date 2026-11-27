@@ -13,7 +13,7 @@ SLIDES.push({
 		// Label & Button for next...
 		self.add({
 			id:"label_next", type:"TextBox",
-			x:55, y:481, width:535, align:"right",
+			x:55, y:475, width:535, align:"right",
 			text_id: "sandbox_end"
 		});
 		self.add({
