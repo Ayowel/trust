@@ -17,6 +17,7 @@ body{
 
 #credits{
 	width: 600px;
+	max-width: calc(100% - 32px);
 	margin: 50px auto;
 	font-weight: 100;
 	color: #fff;

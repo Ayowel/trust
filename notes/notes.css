@@ -20,6 +20,7 @@ b, strong{
 
 #notes{
 	width: 800px;
+	max-width: calc(100% - 32px);
 	margin: 80px auto;
 	line-height: 1.7em;
 }

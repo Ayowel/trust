@@ -13,7 +13,7 @@ SLIDES.push({
 		// Words on top & bottom
 		self.add({
 			id:"topWords", type:"TextBox", text_id:"oneoff_0_top",
-			x:130, y:10, width:700, height:100, align:"center"
+			x:100, y:10, width:760, height:100, align:"center"
 		});
 		self.add({
 			id:"btmWords", type:"TextBox", text_id:"oneoff_0_btm",
@@ -104,7 +104,7 @@ SLIDES.push({
 		}
 		self.add({
 			id:"btmWords", type:"TextBox", text_id:"oneoff_2_btm",
-			x:130, y:392, width:700, height:100, align:"center"
+			x:130, y:384, width:700, height:100, align:"center"
 		});
 
 		// Replace button

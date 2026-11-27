@@ -288,7 +288,7 @@ SLIDES.push({
 		// Worse...
 		self.add({
 			id:"next", type:"Button",
-			x:0, y:450, size:"long",
+			x:0, y:473, size:"long",
 			text_id:"distrust_5_btn",
 			message: "slideshow/scratch"
 		});
